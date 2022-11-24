@@ -1,7 +1,7 @@
 import axios from "axios";
 import { takeLatest, call, put } from "redux-saga/effects";
 
-import { API_CALL_REQUEST } from '../action/asyncActions';
+import { API_CALL_REQUEST } from '../actions/asyncActions';
 
 export function* watcherSaga() {
   yield takeLatest(API_CALL_REQUEST, workerSaga);

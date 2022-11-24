@@ -1,10 +1,14 @@
-
+import TodosContainer from "./components/containers/TodoContainer";
+import TodoFormContainer from "./components/containers/TodoFormContainer";
+import FilterOption from "./components/pure/FilterOption";
 
 function App() {
   return (
-    <div >
-      
-    </div>
+    <>
+      <TodosContainer />
+      <TodoFormContainer />
+      <FilterOption />
+    </>
   );
 }
 
